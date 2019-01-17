@@ -90,8 +90,14 @@ img {
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -107,7 +113,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -127,6 +132,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -148,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -202,19 +303,16 @@ $(document).ready(function () {
 <div id="introduction-to-acoustic-phonetics" class="section level3">
 <h3>1. Introduction to Acoustic Phonetics</h3>
 <ul>
-<li>(03.02.2017) <a href="https://goo.gl/RSz84p">Lec 1</a></li>
-<li>(03.02.2017) Lab 1: <a href="http://www.fon.hum.uva.nl/praat/">Praat</a>. Symbols for <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__consonants_1.png">consonats</a>, <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__vowels_1.png">vowels</a> and <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__diacritics.html">diacritics</a></li>
-<li>HW 1 (due to 10.02.2018):
-<ul>
-<li>Create the annotation for <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true">this sound file</a> containing words <em>bek’:ub</em> (hot), <em>wuk:udu</em> (fall down), <em>tʃ’ek’a</em> (foot) and <em>t’uka</em> (goat). Here is <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png">an example</a>.</li>
-<li>Send the <code>.TextGrid</code> file to the course assistant <a href="mailto:atgz@mail.ru">Aygul Zakirova</a> with topic <code>Instrumental Phonetics: HW 1</code></li>
-</ul></li>
+<li>(17.01.2019) <a href="https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/18.02.03_Acoustic_Phonetics_lec_1.pdf">Lec 1</a></li>
+<li>(17.01.2019) Lab 1: <a href="http://www.fon.hum.uva.nl/praat/">Praat</a>. Symbols for <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__consonants_1.png">consonats</a>, <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__vowels_1.png">vowels</a> and <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__diacritics.html">diacritics</a></li>
+<li>HW 1 (due to 31.01.2019): * Create the annotation for <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true">this sound file</a> containing words <em>bek’:ub</em> (hot), <em>wuk:udu</em> (fall down), <em>tʃ’ek’a</em> (foot) and <em>t’uka</em> (goat). Here is <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png">an example</a>. * Send the <code>.TextGrid</code> file to the course assistant <a href="mailto:aplooon@gmail.com">Katya Aplonova</a> with topic <code>Instrumental Phonetics: HW 1</code></li>
+<li>HW 2 (31.01.2019) I’ll send you a chapter from some hadbook on articulation and sounds types. We will have a test on it.</li>
 </ul>
 </div>
 <div id="vowels.-formants" class="section level3">
 <h3>2. Vowels. Formants</h3>
 <ul>
-<li>(10.02.2017) <a href="https://goo.gl/HUrRuk">Lec 2</a></li>
+<li>(24.01.2019) <a href="https://goo.gl/HUrRuk">Lec 2</a></li>
 <li><a href="https://goo.gl/IzpUyo">sound</a></li>
 <li><a href="https://goo.gl/4tGthZ">TextGrid</a></li>
 <li><a href="https://goo.gl/zPm7Od">extracted formant values</a></li>
@@ -226,46 +324,65 @@ $(document).ready(function () {
 <div id="sonorants" class="section level3">
 <h3>3. Sonorants</h3>
 <ul>
-<li>(17.02.2018) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants.pdf">Lec 3</a></li>
-<li>(17.02.2018) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants_sem_3.pdf">Lab 3</a></li>
+<li>(31.01.2019) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants.pdf">Lec 3</a></li>
+<li>(31.01.2019) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants_sem_3.pdf">Lab 3</a></li>
 <li><a href="https://goo.gl/5D9DNR">Andi nasals</a></li>
 </ul>
 </div>
 <div id="obstruents" class="section level3">
 <h3>4. Obstruents</h3>
 <ul>
-<li>(24.02.2018) <a href="https://goo.gl/3Nw0x1">Lec 4</a></li>
-<li>(24.02.2018) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Obstruents_sem_4.pdf">Lab 4</a></li>
+<li>(07.02.2019) <a href="https://goo.gl/3Nw0x1">Lec 4</a></li>
+<li>(07.02.2019) <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Obstruents_sem_4.pdf">Lab 4</a></li>
 <li><a href="https://goo.gl/hvdviI">fricatives</a>, <a href="https://goo.gl/pza6tx">fricatives’ TextGrid</a>, Extracted data: <a href="https://goo.gl/wo3QZN">ɬ</a>, <a href="https://goo.gl/eNZQKa">s</a>, <a href="https://goo.gl/NgeVSX">sh</a>, <a href="https://goo.gl/oDYvbJ">x</a>, <a href="https://goo.gl/vZQfZG">χ</a></li>
 <li><a href="https://goo.gl/SdGlZr">fricatives’ R script</a></li>
 <li><a href="https://goo.gl/PZA8WY">plosives</a>, <a href="https://goo.gl/1ZFtJt">plosives’ TextGrid</a>, Extracted data: <a href="https://goo.gl/NExChs">plosives’ duration</a></li>
 <li><a href="https://goo.gl/g3oPfN">plosives’ R script</a></li>
-<li>HW 2 (due to 11.03.2018):
-<ul>
-<li>Download <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true">the sound</a> and the <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid">TextGrid file</a></li>
-<li>Annotate CD and VOT</li>
-<li>Create three pictures with R that we discussed in class (example: <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg">pic 1</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg">pic 2</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg">pic 3</a>)</li>
-<li>Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?</li>
-<li>Send the <code>.TextGrid</code> file, pics and text to the course assistant <a href="mailto:atgz@mail.ru">Aygul Zakirova</a> with topic <code>Instrumental Phonetics: HW 2</code></li>
-</ul></li>
+<li>HW 2 (due to 21.02.2019): * Download <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true">the sound</a> and the <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid">TextGrid file</a> * Annotate CD and VOT * Create three pictures with R that we discussed in class (example: <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg">pic 1</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg">pic 2</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg">pic 3</a>) * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives? * Send the <code>.TextGrid</code> file, pics and text to the course assistant <a href="mailto:aplooon@gmail.com">Katya Aplonova</a> with topic <code>Instrumental Phonetics: HW 2</code></li>
 </ul>
 </div>
 <div id="guess-the-word" class="section level3">
 <h3>5. Guess the word</h3>
 <ul>
-<li>(03.03.2018) <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAfqyMxVx4S3iTZNEBMZHXhw1uiZb_ieyyA9bjK9TRGzCb8g/viewform">Lab 5</a></li>
-<li>HW 3 (due to exam):
+<li>(14.02.2019) <a href="https://docs.google.com/forms/d/e/1FAIpQLSfAfqyMxVx4S3iTZNEBMZHXhw1uiZb_ieyyA9bjK9TRGzCb8g/viewform">Lab 5</a></li>
+<li>HW 3 (due to 28.02.2019):
 <ul>
 <li>watch all videos about palatography <a href="https://www.youtube.com/watch?v=wCDuh6dfw6g&amp;index=1&amp;list=PL1741BF0646F7DEEF">1st</a>, <a href="https://www.youtube.com/watch?v=2XEJVs6XbYA&amp;index=2&amp;list=PL1741BF0646F7DEEF">2nd</a>, <a href="https://www.youtube.com/watch?v=kC1x63lgulM&amp;list=PL1741BF0646F7DEEF&amp;index=3">3rd</a>, <a href="https://www.youtube.com/watch?v=llP36cePiMM&amp;list=PL1741BF0646F7DEEF&amp;index=4">4th</a>, <a href="https://www.youtube.com/watch?v=CqN-mh02o5U&amp;list=PL1741BF0646F7DEEF&amp;index=5">5th</a>, <a href="https://www.youtube.com/watch?v=8Sh5hFnIuS4&amp;index=6&amp;list=PL1741BF0646F7DEEF">6th</a></li>
 </ul></li>
 </ul>
 </div>
-<div id="final-exam" class="section level3">
-<h3>6. Final Exam</h3>
+<div id="prosody" class="section level3">
+<h3>6. Prosody</h3>
 <ul>
-<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSehWch2hwh2Wr0joZ5ULKw4mQSaE7vq_wuImJbkoz24MTSMkw/viewform">Exam example</a></li>
-<li>(??.03.2018) Exam</li>
+<li>(21.02.2019)</li>
 </ul>
+</div>
+<div id="methods-of-phonetic-investigation" class="section level3">
+<h3>7. Methods of phonetic investigation</h3>
+<ul>
+<li>(28.02.2019)</li>
+</ul>
+</div>
+<div id="methods-of-phonetic-investigation-1" class="section level3">
+<h3>8. Methods of phonetic investigation</h3>
+<ul>
+<li>(07.03.2019)</li>
+</ul>
+</div>
+<div id="section" class="section level3">
+<h3>9.</h3>
+<ul>
+<li>(14.03.2019)</li>
+</ul>
+</div>
+<div id="on-phonologyphonetics-fieldwork" class="section level3">
+<h3>10. On phonology/phonetics fieldwork</h3>
+<ul>
+<li>(21.03.2019)</li>
+</ul>
+</div>
+<div id="exam" class="section level3">
+<h3>EXAM</h3>
 </div>
 <div id="useful-links" class="section level3">
 <h3>Useful links</h3>
