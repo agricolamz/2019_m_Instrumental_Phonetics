@@ -7,14 +7,16 @@ title: "Instrumental Phonetics 2019"
 Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 1. Introduction to Acoustic Phonetics
-* (17.01.2019)	[Lec 1](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/18.02.03_Acoustic_Phonetics_lec_1.pdf)
+
+* (17.01.2019)	[Lec 1](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/18.02.03_Acoustic_Phonetics_lec_1.pdf), [additional materials on waves](https://pudding.cool/2018/02/waveforms/)
 * (17.01.2019)	Lab 1: [Praat](http://www.fon.hum.uva.nl/praat/). Symbols for [consonats](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__consonants_1.png), [vowels](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__vowels_1.png) and [diacritics](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__diacritics.html)
-* HW 1 (due to 31.01.2019): 
-      * Create the  annotation for [this sound file](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true) containing words *bek':ub* (hot), *wuk:udu* (fall down), *tʃ'ek'a* (foot) and *t'uka* (goat). Here is [an example](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png).
-      * Send the `.TextGrid` file to the course assistant [Katya Aplonova](mailto:aplooon@gmail.com) with topic `Instrumental Phonetics: HW 1`
-* HW 2 (31.01.2019) I'll send you a chapter from some hadbook on articulation and sounds types. We will have a test on it.
+* HW 1 (31.01.2019) I'll send you a chapter from some hadbook on articulation and sounds types. We will have a little test on it.
+* HW 2 (due to 31.01.2019): 
+    * Create the  annotation for [this sound file](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true) containing words *bek':ub* (hot), *wuk:udu* (fall down), *tʃ'ek'a* (foot) and *t'uka* (goat). Here is [an example](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png).
+    * Send the `.TextGrid` file to the course assistant [Katya Aplonova](mailto:aplooon@gmail.com) with topic `Instrumental Phonetics: HW 1`
 
 ### 2. Vowels. Formants
+
 * (24.01.2019)	[Lec 2](https://goo.gl/HUrRuk)
 * [sound](https://goo.gl/IzpUyo)
 * [TextGrid](https://goo.gl/4tGthZ)
@@ -24,11 +26,13 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 * [R script for the visualisation of duration](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/plot_duration.R)
 
 ### 3. Sonorants
+
 * (31.01.2019)	[Lec 3](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants.pdf)
 * (31.01.2019)	[Lab 3](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.17_Sonorants_sem_3.pdf)
 * [Andi nasals](https://goo.gl/5D9DNR)
 
 ### 4. Obstruents
+
 * (07.02.2019)	[Lec 4](https://goo.gl/3Nw0x1)
 * (07.02.2019)	[Lab 4](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Obstruents_sem_4.pdf)
 * [fricatives](https://goo.gl/hvdviI), [fricatives' TextGrid](https://goo.gl/pza6tx), Extracted data: [ɬ](https://goo.gl/wo3QZN), [s](https://goo.gl/eNZQKa), [sh](https://goo.gl/NgeVSX), [x](https://goo.gl/oDYvbJ), [χ](https://goo.gl/vZQfZG) 
@@ -36,38 +40,47 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 * [plosives](https://goo.gl/PZA8WY), [plosives' TextGrid](https://goo.gl/1ZFtJt), Extracted data: [plosives' duration](https://goo.gl/NExChs)
 * [plosives' R script](https://goo.gl/g3oPfN)
 * HW 2 (due to 21.02.2019):
-      * Download [the sound](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true) and the [TextGrid file](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid)
-      * Annotate CD and VOT
-      * Create three pictures with R that we discussed in class (example: [pic 1](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg), [pic 2](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg), [pic 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg))
-      * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
+    * Download [the sound](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true) and the [TextGrid file](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid)
+    * Annotate CD and VOT
+    * Create three pictures with R that we discussed in class (example: [pic 1](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg), [pic 2](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg), [pic 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg))
+    * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
       * Send the `.TextGrid` file, pics and text to the course assistant [Katya Aplonova](mailto:aplooon@gmail.com) with topic `Instrumental Phonetics: HW 2`
       
 ### 5. Guess the word 
+
 * (14.02.2019)	[Lab 5](https://docs.google.com/forms/d/e/1FAIpQLSfAfqyMxVx4S3iTZNEBMZHXhw1uiZb_ieyyA9bjK9TRGzCb8g/viewform)
 * HW 3 (due to 28.02.2019): 
     * watch all videos about palatography [1st](https://www.youtube.com/watch?v=wCDuh6dfw6g&index=1&list=PL1741BF0646F7DEEF), [2nd](https://www.youtube.com/watch?v=2XEJVs6XbYA&index=2&list=PL1741BF0646F7DEEF), [3rd](https://www.youtube.com/watch?v=kC1x63lgulM&list=PL1741BF0646F7DEEF&index=3), [4th](https://www.youtube.com/watch?v=llP36cePiMM&list=PL1741BF0646F7DEEF&index=4), [5th](https://www.youtube.com/watch?v=CqN-mh02o5U&list=PL1741BF0646F7DEEF&index=5), [6th](https://www.youtube.com/watch?v=8Sh5hFnIuS4&index=6&list=PL1741BF0646F7DEEF) 
 
 ### 6. Prosody
+
 * (21.02.2019)
 
 ### 7. Methods of phonetic investigation
+
 * (28.02.2019)
 
 ### 8. Methods of phonetic investigation
+
 * (07.03.2019)
 
 ### 9. 
+
 * (14.03.2019)
 
 ### 10. On phonology/phonetics fieldwork
+
 * (21.03.2019)
 
 ### EXAM
   
 ### Useful links
+
+* [Interactive tutorials on waves](https://pudding.cool/2018/02/waveforms/)
 * [the real-time MRI IPA charts](http://sail.usc.edu/span/rtmri_ipa/index.html)
 
 ### Reference:
+
 * Ashby, M., J. Maidment (2005). Introducing phonetic science. Cambridge University Press.
 * Bickford, A. C., R. Floyd (2006). Articulatory Phonetics: Tools for Analyzing the World’s Languages SIL International. 
 * Boersma,  P.,  D.  Weenink  (2013). Praat:    doing  phonetics  by  computer  (version 5.3.51)[computer program]. retrieved 2 june 2013.
