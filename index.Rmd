@@ -33,8 +33,8 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 4. Obstruents
 
-* (07.02.2019)	[Lec 4](https://goo.gl/3Nw0x1)
-* (07.02.2019)	[Lab 4](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Obstruents_sem_4.pdf)
+* (12.02.2019)	[Lec 4](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Phonations_Obstruents.pdf)
+* (12.02.2019)	[Lab 4](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/raw/master/docs/18.02.24_Obstruents_sem_4.pdf)
 * [fricatives](https://goo.gl/hvdviI), [fricatives' TextGrid](https://goo.gl/pza6tx), Extracted data: [ɬ](https://goo.gl/wo3QZN), [s](https://goo.gl/eNZQKa), [sh](https://goo.gl/NgeVSX), [x](https://goo.gl/oDYvbJ), [χ](https://goo.gl/vZQfZG) 
 * [fricatives' R script](https://goo.gl/SdGlZr)
 * [plosives](https://goo.gl/PZA8WY), [plosives' TextGrid](https://goo.gl/1ZFtJt), Extracted data: [plosives' duration](https://goo.gl/NExChs)
@@ -45,16 +45,17 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
     * Create three pictures with R that we discussed in class (example: [pic 1](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg), [pic 2](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg), [pic 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg))
     * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
       * Send the `.TextGrid` file, pics and text to the course assistant [Katya Aplonova](mailto:aplooon@gmail.com) with topic `Instrumental Phonetics: HW 2`
+
+### 5. Prosody
+
+* (14.02.2019)
+
       
 ### 5. Guess the word 
 
-* (14.02.2019)	[Lab 5](https://docs.google.com/forms/d/e/1FAIpQLSfAfqyMxVx4S3iTZNEBMZHXhw1uiZb_ieyyA9bjK9TRGzCb8g/viewform)
+* (26.02.2019)	[Lab 5](https://docs.google.com/forms/d/e/1FAIpQLSfAfqyMxVx4S3iTZNEBMZHXhw1uiZb_ieyyA9bjK9TRGzCb8g/viewform)
 * HW 3 (due to 28.02.2019): 
-    * watch all videos about palatography [1st](https://www.youtube.com/watch?v=wCDuh6dfw6g&index=1&list=PL1741BF0646F7DEEF), [2nd](https://www.youtube.com/watch?v=2XEJVs6XbYA&index=2&list=PL1741BF0646F7DEEF), [3rd](https://www.youtube.com/watch?v=kC1x63lgulM&list=PL1741BF0646F7DEEF&index=3), [4th](https://www.youtube.com/watch?v=llP36cePiMM&list=PL1741BF0646F7DEEF&index=4), [5th](https://www.youtube.com/watch?v=CqN-mh02o5U&list=PL1741BF0646F7DEEF&index=5), [6th](https://www.youtube.com/watch?v=8Sh5hFnIuS4&index=6&list=PL1741BF0646F7DEEF) 
-
-### 6. Prosody
-
-* (21.02.2019)
+    * watch all videos about palatography [1st](https://www.youtube.com/watch?v=wCDuh6dfw6g&index=1&list=PL1741BF0646F7DEEF), [2nd](https://www.youtube.com/watch?v=2XEJVs6XbYA&index=2&list=PL1741BF0646F7DEEF), [3rd](https://www.youtube.com/watch?v=kC1x63lgulM&list=PL1741BF0646F7DEEF&index=3), [4th](https://www.youtube.com/watch?v=llP36cePiMM&list=PL1741BF0646F7DEEF&index=4), [5th](https://www.youtube.com/watch?v=CqN-mh02o5U&list=PL1741BF0646F7DEEF&index=5), [6th](https://www.youtube.com/watch?v=8Sh5hFnIuS4&index=6&list=PL1741BF0646F7DEEF)
 
 ### 7. Methods of phonetic investigation
 
