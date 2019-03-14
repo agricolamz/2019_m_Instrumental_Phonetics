@@ -40,7 +40,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 5. Prosody
 
-* (14.02.2019) [Lec 5](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/lec%205%20prosody.pptx)
+* (14.02.2019) [Lec 5](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/19.02.28_lec%205%20prosody.pptx)
 
       
 ### 6. Guess the word 
@@ -60,16 +60,16 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
       
 ### 7. Methods of phonetic investigation
 
-* (07.03.2019)
-* HW 5 (due to 21.03.2019)
+* (07.03.2019) [Lec 7](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/19.03.07_L%20methods.pdf)
+* (07.03.2019) [Lab 7](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/tree/master/palatography)
 
 ### 8. Perception
 
-* (14.03.2019)
+* (14.03.2019) [Lec 8]()
 
 ### 9. Speech recognition and synthesis
 
-* (21.03.2019)
+* (21.03.2019) [Lec 9]()
 
 ### 10. Fieldwork. Phonological and phonetic description
 
