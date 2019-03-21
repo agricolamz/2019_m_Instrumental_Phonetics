@@ -70,6 +70,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 ### 9. Speech recognition and synthesis
 
 * (21.03.2019) [Lec 9](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/lec%209/19.03.21_Speech_recognition_history.pdf)
+* (21.03.2019) [Praat Vocal Toolkit](http://www.praatvocaltoolkit.com/download-installation.html), [Wavelet sound explorer](http://stevehanov.ca/wavelet/)
 
 ### 10. Fieldwork. Phonological and phonetic description
 
