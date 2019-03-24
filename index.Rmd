@@ -65,7 +65,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 8. Perception
 
-* (14.03.2019) [Lec 8]()
+* (14.03.2019) [Lec 8](https://github.com/agricolamz/2019_m_Instrumental_Phonetics/raw/master/docs/19.03.14_perception.pdf)
 
 ### 9. Speech recognition and synthesis
 
@@ -74,7 +74,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 10. Fieldwork. Phonological and phonetic description
 
-* (when?)
+* (23.03.2019)
 
 ### EXAM
   
